@@ -8608,14 +8608,6 @@ strapi-plugin-entity-relationship-chart@^4.14.6:
     lodash "^4.17.21"
     prop-types "^15.7.2"
 
-strapi-plugin-vercel-deploy@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/strapi-plugin-vercel-deploy/-/strapi-plugin-vercel-deploy-1.4.0.tgz"
-  integrity sha512-hUwUM3WjIsFRSlIU9SMGBFc7UOpoyPdW/yEhFtUdlFIb5G2+tALgS/1kWXVnP61VWb1nsqqjtNoxCtxsif9FvA==
-  dependencies:
-    axios "^0.26.1"
-    react-intl "^5.25.1"
-
 stream-chain@^2.2.5, stream-chain@2.2.5:
   version "2.2.5"
   resolved "https://registry.npmjs.org/stream-chain/-/stream-chain-2.2.5.tgz"
