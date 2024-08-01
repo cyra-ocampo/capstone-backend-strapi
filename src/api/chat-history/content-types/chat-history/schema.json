@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_histories",
+  "info": {
+    "singularName": "chat-history",
+    "pluralName": "chat-histories",
+    "displayName": "chat-history"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "timestamp": {
+      "type": "datetime"
+    }
+  }
+}

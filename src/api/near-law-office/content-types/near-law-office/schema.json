@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "near_law_offices",
+  "info": {
+    "singularName": "near-law-office",
+    "pluralName": "near-law-offices",
+    "displayName": "near-law-office",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "placeName": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "address": {
+      "type": "text"
+    },
+    "officeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}
